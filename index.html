@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="jsindex.js" type="text/javascript" defer></script>
+    <link href="cssindex.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="fondo"></div>
+    <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" name="pokemon" autocomplete="off">
+        <input type="button" name="Buscar" value="Regresar" onclick="location.href='htmllis.html'" />
+    </form>
+    <div data-poke-card class="poke-card">
+        <div data-poke-name></div>
+        <div data-poke-img-container class="img-container">
+           
+            <img data-poke-img class="poke-img" src="https://66.media.tumblr.com/9697ebbc4887dc57620c50a12f24c61d/tumblr_nc1rokF7r31s1rd1xo1_500.gif"/>
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+    </div>
+</body>
+</html>
